@@ -22,7 +22,7 @@ A cross-platform pick-to-translate tray app for macOS and Windows. Select text a
 | 平台 | 产物 | 说明 |
 | --- | --- | --- |
 | macOS | `PickTranslator-x.y.z-universal.dmg` | 打开后拖入 Applications |
-| Windows | `PickTranslator Setup x.y.z.exe` | 安装版，可选安装目录 |
+| Windows | `PickTranslator-Setup-x.y.z.exe` | 安装版，可选安装目录 |
 | Windows | `PickTranslator-x.y.z-portable.exe` | 免安装，双击即用 |
 
 **macOS 首次打开**：应用未做 Apple 公证，若提示「无法验证开发者」，右键点击应用 → 打开；或终端执行：

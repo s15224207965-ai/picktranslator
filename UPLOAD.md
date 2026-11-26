@@ -13,7 +13,7 @@
    - 标题：`PickTranslator v2.0.0`；
    - 附件拖入 release/ 下三个文件：
      - PickTranslator-2.0.0-universal.dmg（macOS）
-     - PickTranslator Setup 2.0.0.exe（Windows 安装版）
+     - PickTranslator-Setup-2.0.0.exe（Windows 安装版）
      - PickTranslator-2.0.0-portable.exe（Windows 便携版）
    - 描述可直接用 README 的「功能 / 安装 / 已知限制」章节；Publish release。
    - Release 附件单文件上限 2GB，三个包均符合。
