@@ -1,0 +1,35 @@
+appId: com.picktranslator.app
+productName: PickTranslator
+directories:
+  output: release
+  buildResources: buildResources
+files:
+  - dist/**/*
+  - "!dist/renderer/*-test.html"
+  - package.json
+asar: true
+mac:
+  category: public.app-category.productivity
+  target:
+    - target: dmg
+      arch: [universal]
+  icon: buildResources/icon.png
+  extendInfo:
+    LSUIElement: true
+    NSHumanReadableCopyright: MIT License
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+  icon: buildResources/icon.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: PickTranslator
+portable:
+  artifactName: PickTranslator-${version}-portable.exe
+dmg:
+  artifactName: PickTranslator-${version}-${arch}.dmg

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>PickTranslator</title>
+</head>
+<body class="panel-body">
+  <div class="panel-card">
+    <div class="row panel-head">
+      <select id="mode-select" title="切换场景"></select>
+      <div class="spacer"></div>
+      <button class="icon-btn" id="close-btn" title="关闭 (Esc)">✕</button>
+    </div>
+    <div id="content" style="display:flex;flex-direction:column;gap:10px;flex:1;min-height:0"></div>
+  </div>
+  <script src="panel.js"></script>
+</body>
+</html>
